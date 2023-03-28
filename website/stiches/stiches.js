@@ -12,23 +12,30 @@ function setup() {
 }
 
 function draw() {
-  background(100);
-  pg.background(100,100,100,0);
+  //background(100);
+ // pg.background(100,100,100,0);
 
   //text formatting
 
   noStroke();
-  fill(25);
   textSize(80);
   textAlign(CENTER, CENTER);
+ 
+  fill(255,0,255);
+  rectMode(CENTER);
+  rect(width / 2, height / 2, textWidth(clicks.toString()) + 20, textSize() + 20,20);
+ 
   //displaying number of clicks
+  fill(25);
   text(clicks, width/2, height/2);
+
 
   
 }
 
 //function is called when user clicks
 function mousePressed() {
+    clear();
   //add 1 to variable clicks
   clicks ++;
  
