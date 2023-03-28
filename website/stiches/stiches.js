@@ -1,4 +1,5 @@
 //defining a variable to store the number of clicks
+//reference: samek
 var clicks = 0;
 let pg;
 function setup() {
@@ -18,12 +19,14 @@ function draw() {
   //text formatting
 
   noStroke();
+  textFont('Georgia');
+  textStyle(BOLD);
   textSize(80);
   textAlign(CENTER, CENTER);
  
-  fill(255,0,255);
-  rectMode(CENTER);
-  rect(width / 2, height / 2, textWidth(clicks.toString()) + 20, textSize() + 20,20);
+//   fill(255,0,255);
+//   rectMode(CENTER);
+//   rect(width / 2, height / 2, textWidth(clicks.toString()) + 20, textSize() + 20,20);
  
   //displaying number of clicks
   fill(25);
