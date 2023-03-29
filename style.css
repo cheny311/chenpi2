@@ -230,7 +230,7 @@ position: relative;
 }
 
 .toe1 {
-  transform: translate(-40px,60px);
+  transform: translate(-40px,90px);
   width: 17vw;
   height: 25vw;
 }
@@ -268,7 +268,7 @@ text-align: center;
 }
 
 .toe2 {
-  transform: translate(-30px,28px);
+  transform: translate(-30px,24px);
   width: 14vw;
   height: 21vw;
 }
@@ -322,7 +322,7 @@ text-align: center;
   opacity: 1;
 }
 .toe4 {
-  transform: translate(-10px,55px);
+  transform: translate(-10px,105px);
   
   width: 13vw;
   height: 18vw;
@@ -354,7 +354,7 @@ text-align: center;
   opacity: 1;
 }
 .toe5 {
-  transform: translate(-10px,55px);
+  transform: translate(-10px,220px);
   width: 10vw;
   height: 15vw;
 }
