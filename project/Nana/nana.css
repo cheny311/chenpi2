@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    margin: 20px;
+  }
+  
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .rectangle {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  #rectangle1 {
+    top: 0;
+    left: 0;
+  }
+  
+  #rectangle2 {
+    top: 0;
+    right: 0;
+  }
+  
+  #rectangle3 {
+    bottom: 0;
+    left: 0;
+  }
+  
+  #rectangle4 {
+    bottom: 0;
+    right: 0;
+  }
+  
+  #rectangle5 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .rectangle:hover {
+    background-color: #f00;
+  }
+  
+  .rectangle p {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
