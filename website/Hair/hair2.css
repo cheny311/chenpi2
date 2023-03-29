@@ -10,12 +10,29 @@ body{
 .flex-container{
     display:flex;
     background-color: black;
+    flex-wrap: wrap;
+
 }
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+  } */
+  img{
+    width:100%;
+    height:auto;
+    
+  }
 .item {
-    width: 30%;
+    width: 300px;
     height: 300px;
     background-color: blue;
     color:aqua;
-    margin: 10px;
+    /* margin: 10px;
+    margin-left: 5%; */
+    margin: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }

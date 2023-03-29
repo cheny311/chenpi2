@@ -202,6 +202,7 @@ img {
 .second-section {
   /* display: flex; */
   padding: 2rem;
+  margin-top: 1rem;
 }
 
 .second-section p {
@@ -383,7 +384,9 @@ text-align: center;
   opacity: 1;
 }
 
-
+#Layer_1{
+  margin-top: 0.5rem;
+}
 /* third section */
 .third-section {
   min-height: 100vh;
