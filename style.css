@@ -202,7 +202,7 @@ img {
 .second-section {
   /* display: flex; */
   padding: 2rem;
-  margin-top: 1rem;
+  margin-top: 60px;
 }
 
 .second-section p {
@@ -385,10 +385,11 @@ text-align: center;
 }
 
 #Layer_1{
-  margin-top: 0.5rem;
+  margin-top: 120px;
 }
 /* third section */
 .third-section {
+  margin-top: 50px;
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -396,7 +397,7 @@ text-align: center;
 }
 
 .image-box {
-  margin: 3rem;
+  margin: 25px;
 }
 
 /* media query for desktop values */
