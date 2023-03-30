@@ -1,7 +1,7 @@
 //defining a variable to store the number of clicks
 //reference: samek
 var clicks = 0;
-let pg;
+
 let img;
 
 function preload() {
