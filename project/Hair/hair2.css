@@ -6,23 +6,24 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif ;
+    background-color: black;
+}
+.back-text{
+    color: #fff;
 }
 .flex-container{
     display:flex;
-    background-color: black;
     flex-wrap: wrap;
-
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 /* .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
   } */
-  img{
-    width:100%;
-    height:auto;
-    
-  }
+  
 .item {
     width: 300px;
     height: 300px;
@@ -34,5 +35,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     
 }
+.item>img{
+    width:300px;
+    height:300px;
+    z-index: 10;
+  }
+  .item>.text{
+    position: absolute;
+    bottom: 10px;
+    z-index: 9;
+  }
