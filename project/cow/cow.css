@@ -6,13 +6,24 @@ body{
     background-size:cover;  
 }
 
-a:link { text-decoration: none; color: white;}
+a:link { 
+  text-decoration: none; 
+   font-weight: bold;
+   color: rgb(174, 255, 0);}
 
-a:visited { text-decoration: none; color: white;}
+a:visited { 
+  text-decoration:none; 
+   font-weight: bold;
+   color: rgb(255, 0, 0);}
 
-a:hover { text-decoration: none; color: white;}
+a:hover { 
+  text-decoration: none; 
+  font-weight: bold; 
+  color: rgb(158, 250, 21);}
 
-a:active { text-decoration: none; }
+a:active { 
+  text-decoration: none; 
+   font-weight: bold; }
 
 .carousel-container {
     position: relative;

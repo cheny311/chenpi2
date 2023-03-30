@@ -9,7 +9,11 @@ body{
     background-color: black;
 }
 .back-text{
-    color: #fff;
+    color: #82867f;
+    font-size: 65px;
+}
+.back-text:hover{
+    color: rgb(255, 0, 174);
 }
 .flex-container{
     display:flex;
