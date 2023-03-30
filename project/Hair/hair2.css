@@ -12,20 +12,29 @@
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ffff00;
-    color: rgb(13, 0, 255);
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
     border: none;
-    border-radius: 4px;
+    border-radius: 5px;
+    background-color: #99ff00;
+    opacity: 50%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 0 0 10px #ff0101, 0 0 20px #a6ff00, 0 0 30px #fa0000, 0 0 40px rgb(0, 248, 124);
+    transition: all 0.5s ease-in-out;
     cursor: pointer;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .neon-button:hover {
+    box-shadow: none;
+    color: rgb(0, 0, 250);
+    opacity: 100%;
   
+  }
 
 body{
     font-family:Arial, Helvetica, sans-serif ;
