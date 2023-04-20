@@ -5,6 +5,12 @@ let apiKey = "101a338fa877d3ba5d9613e0f104991a";
 let weatherDescription;
 let img1,img2,img3;
 
+let sunnyAudio = new Audio('sunny.mp3');
+let cloudAudio = new Audio('cloud.mp3');
+let rainAudio = new Audio('rain.mp3');
+
+
+
 function preload() {
     img1 = loadImage('clear.png');
     img2 = loadImage('cloud.png');
@@ -23,17 +29,21 @@ function draw() {
   // text(`It is ${weatherDescription} right now`, width / 2 - 90, height / 2);
    if (weatherDescription) {
     if (weatherDescription.includes("clear")) {
-    image(img1,0,0);
-      text(`It is clear and sunny right now`, width / 2 - 120, height / 2);
+        image(img1,0,0);
+        text(`It is clear and sunny right now`, width / 2 - 120, height / 2);
+        sunnyAudio.play();
     } else if (weatherDescription.includes("cloud")) {
         image(img2,0,0);
-      text(`It is cloudy right now`, width / 2 - 70, height / 2);
+        text(`It is cloudy right now`, width / 2 - 70, height / 2);
+        cloudAudio.play();
     } else if (weatherDescription.includes("rain")) {
-      text(`It is raining right now`, width / 2 - 70, height / 2);
-      image(img3,0,0);
+        text(`It is raining right now`, width / 2 - 70, height / 2);
+        image(img3,0,0);
+        rainAudio.play();
     } else {
-      text(`It is ${weatherDescription} right now`, width / 2 - 90, height / 2);
+        text(`It is ${weatherDescription} right now`, width / 2 - 90, height / 2);
     }
+    
   } else {
     text("Loading weather data...", width / 2 - 100, height / 2);
   }
