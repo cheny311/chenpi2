@@ -13,7 +13,8 @@ function preload() {
 function setup() {
   createCanvas(1920,1080);
   textSize(18);
-  fill(255);
+  fill(255,0,155);
+  textStyle(BOLD);
   loadJSON(url1 + city + url2 + apiKey, getData);
 }
 
